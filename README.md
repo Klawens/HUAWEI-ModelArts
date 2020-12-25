@@ -1,2 +1,2 @@
 # HUAWEI-ModelArts
-华为云AI比赛，ModelArts部署
+HUAWEI Cloud AI competitions，ModelArts deployments
