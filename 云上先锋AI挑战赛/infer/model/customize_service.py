@@ -29,7 +29,7 @@ class ModelClass(PTServingBaseService):
         self.model_name = model_name
         self.model_path = model_path
 
-        config_file = '/home/mind/model/config.py'
+        config_file = '/home/mind/model/fcn_hr48_512x1024_160k_cityscapes.py'
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.model = init_segmentor(config_file, self.model_path, device=self.device)
          
